@@ -1,3 +1,5 @@
+import "./FourCardFeatureSection.scss"
+
 const FourCardFeatureSection = (props) => {
   return (
     <div className="container">
