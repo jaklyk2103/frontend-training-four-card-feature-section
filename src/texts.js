@@ -4,7 +4,7 @@ const texts = {
   'content': 'Our Artficial Intelligence powered tools use millions of project data point to ensure that your project is successful',
   'card1-title': 'Supervisor',
   'card1-content': 'Monitors activity to identify project roadblocks',
-  'card2-title': 'Team builder',
+  'card2-title': 'Team Builder',
   'card2-content': 'Scans our talent network to create the optimal team for your project',
   'card3-title': 'Karma',
   'card3-content': 'Regularly evaluates talent to ensure quality',

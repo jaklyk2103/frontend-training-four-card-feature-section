@@ -1,8 +1,8 @@
-const FeatureCard = ({title, content, children}) => {
+const FeatureCard = ({title, content, children, color}) => {
   return (
-    <div className="card">
-      <div className="title">{title}</div>
-      <div className="content">{content}</div>
+    <div className="card" style={color ? {borderTopColor: color} : {}}>
+      <div className="card-title">{title}</div>
+      <div className="card-content">{content}</div>
       <div>
         {children}
       </div>
