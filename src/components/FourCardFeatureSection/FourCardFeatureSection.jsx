@@ -1,10 +1,10 @@
 import "./FourCardFeatureSection.scss"
 import texts from "../../texts"
 import FeatureCard from "../FeatureCard/FeatureCard"
-import IconKarma from "../icons/iconKarma"
-import IconCalculator from "../icons/iconCalculator"
-import IconSupervisor from "../icons/iconSupervisor"
-import IconTeamBuilder from "../icons/iconTeamBuilder"
+import IconKarma from "../icons/IconKarma"
+import IconCalculator from "../icons/IconCalculator"
+import IconSupervisor from "../icons/IconSupervisor"
+import IconTeamBuilder from "../icons/IconTeamBuilder"
 
 const FourCardFeatureSection = (props) => {
   return (
