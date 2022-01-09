@@ -23,24 +23,25 @@ body {
 }
 
 .container {
-  margin: 5rem 2rem 5rem 2rem;
+  margin: 5rem 1.5rem 5rem 1.5rem;
   text-align: center;
 
   .header1 {
     font-weight: $font-weight-light;
     font-size: 1.4375rem;
+    color: $color-neutral-dark-blue;
   }
 
   .header2 {
     font-weight: $font-weight-bold;
     font-size: 1.375rem;
     letter-spacing: 1px;
-    color: green;
+    color: $color-neutral-dark-blue;
     margin-bottom: 1rem;
   }
 
   .content {
-    color:$color-neutral-grayish;
+    color: $color-neutral-grayish;
   }
 
   .cards-container {
@@ -52,8 +53,33 @@ body {
       border-top-left-radius: 4px 4px;
       border-top-right-radius: 4px 4px;
       margin-bottom: 1.5rem;
+      padding: 1.5rem 1.75rem 1.5rem 1.75rem;
       background-color: white;
-      box-shadow: 1px 3px 15px -7px $color-neutral-grayish;
+      box-shadow: 1px 3px 25px -9px $color-neutral-grayish;
+      display: flex;
+      flex-direction: column;
+
+
+
+      .card-title {
+        margin-bottom: 0.5rem;
+        align-self: flex-start;
+        font-weight: $font-weight-bold;
+        font-size: 1.25rem;
+        color: $color-neutral-dark-blue
+      }
+
+      .card-content {
+        margin-bottom: 1.75rem;
+        text-align: left;
+        font-size: 0.825rem;
+        line-height: 1.375rem;
+        color: $color-neutral-grayish;
+      }
+
+      .card-icon-container {
+        align-self: flex-end;
+      }
     }
   }
 }
