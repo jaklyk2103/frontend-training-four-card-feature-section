@@ -17,12 +17,14 @@ const FourCardFeatureSection = (props) => {
         <FeatureCard title={texts["card1-title"]} content={texts["card1-content"]} color={colors.primaryCyan}>
           <IconSupervisor />
         </FeatureCard>
-        <FeatureCard title={texts["card2-title"]} content={texts["card2-content"]} color={colors.primaryRed}>
-          <IconTeamBuilder />
-        </FeatureCard>
-        <FeatureCard title={texts["card3-title"]} content={texts["card3-content"]} color={colors.primaryOrange}>
-          <IconKarma />
-        </FeatureCard>
+        <div className="middle-card-container">
+          <FeatureCard title={texts["card2-title"]} content={texts["card2-content"]} color={colors.primaryRed}>
+            <IconTeamBuilder />
+          </FeatureCard>
+          <FeatureCard title={texts["card3-title"]} content={texts["card3-content"]} color={colors.primaryOrange}>
+            <IconKarma />
+          </FeatureCard>
+        </div>
         <FeatureCard title={texts["card4-title"]} content={texts["card4-content"]} color={colors.primaryBlue}>
           <IconCalculator />
         </FeatureCard>

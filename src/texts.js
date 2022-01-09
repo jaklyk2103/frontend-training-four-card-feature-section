@@ -1,7 +1,7 @@
 const texts = {
   'title1': 'Reliable, efficient delivery',
   'title2': 'Powered by Technology',
-  'content': 'Our Artficial Intelligence powered tools use millions of project data point to ensure that your project is successful',
+  'content': 'Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful',
   'card1-title': 'Supervisor',
   'card1-content': 'Monitors activity to identify project roadblocks',
   'card2-title': 'Team Builder',
